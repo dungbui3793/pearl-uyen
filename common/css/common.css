@@ -49,15 +49,10 @@
 
 .copyright {
   height: 50px;
-  background-color: black;
-  position: relative; }
-  .copyright p {
-    position: absolute;
-    color: white;
-    text-align: center;
-    top: 50%;
-    transform: translate(50%, -50%);
-    right: 50%; }
+  line-height: 50px;
+  text-align: center;
+  background-color: #000;
+  color: #fff; }
 
 .topbtn {
   display: none;

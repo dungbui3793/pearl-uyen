@@ -18,13 +18,13 @@
 
     <!-- CSS
    ================================================== -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="common/css/reset.css">
     <link rel="stylesheet" href="common/css/jquery.simplyscroll.css">
     <link rel="stylesheet" href="common/css/animate.css">
     <link rel="stylesheet" href="common/css/common.css">
     <link rel="stylesheet" href="css/top.css">
-    <link rel="stylesheet" href="css/main.css">
+    <!--<link rel="stylesheet" href="css/main.css">-->
 
     <!-- Javascript
     ================================================== -->
@@ -45,11 +45,12 @@
 <!-- =========== main content ============ -->
 
 
+<!-- TODO style lai menu, ko dung absolute o menu -->
 <section class="header">
     <div class="container container__header ">
         <img class="pull-left logo-img" src="common/img/logo.png"/>
         <ul class="nav-top pull-right">
-            <li><a  class="active href="index.html">TOP</a></li>
+            <li><a  class="active" href="index.html">TOP</a></li>
             <li><a href="page-01/index.html">企業情報</a></li>
             <li><a href="page-02/index.html">実績紹介</a></li>
             <li><a href="page-03/index.html">設備紹介</a></li>
@@ -82,27 +83,27 @@
 
 <section class="works">
     <img src="img/works-title.png">
-        <ul   class="scroller-img">
-            <li>
-                <div class="pentagon1"></div>
-            </li>
-            <li>
-                <div class="pentagon2"></div>
-            </li>
-            <li>
-                <div class="pentagon3"></div>
-            </li>
-            <li>
-                <div class="pentagon4"></div>
-            </li>
-            <li>
-                <div class="pentagon5"></div>
-            </li>
-            <li>
-                <div class="pentagon6"></div>
-            </li>
+    <ul   class="scroller-img">
+        <li>
+            <div class="pentagon1"></div>
+        </li>
+        <li>
+            <div class="pentagon2"></div>
+        </li>
+        <li>
+            <div class="pentagon3"></div>
+        </li>
+        <li>
+            <div class="pentagon4"></div>
+        </li>
+        <li>
+            <div class="pentagon5"></div>
+        </li>
+        <li>
+            <div class="pentagon6"></div>
+        </li>
 
-        </ul>
+    </ul>
     <ul  class="scroller-img scroller-img-below">
         <li>
             <div class="pentagon1"></div>
@@ -139,15 +140,7 @@
 
         </div>
         <div class="col-sm-8" id="map"></div>
-        <script>
-            var map;
-            function initMap() {
-                map = new google.maps.Map(document.getElementById('map'), {
-                    center: {lat: -34.397, lng: 150.644},
-                    zoom: 8
-                });
-            }
-        </script>
+
     </div>
 </section>
 
@@ -155,12 +148,21 @@
 <button id="topbtn" class="topbtn scrollToTop" title="Go to top"><img src="img/scrollTop.png"/></button>
 
 <section class="copyright">
-    <p>
-        Copyright &copy 2016 Pearl senshoku. All Rights Reserved.
-    </p>
+    Copyright &copy 2016 Pearl senshoku. All Rights Reserved.
 </section>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABVIue-ZF2hhvZNC6JdXoJtP3tcM6SzDA&callback=initMap" async defer></script>
+
+<script>
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: -34.397, lng: 150.644},
+            zoom: 8
+        });
+    }
+</script>
+
 <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYQcvegubeG_OyDA2po7Nqurf7j9vMs9U&callback=initMap&language=ja&region=JP" async defer></script>-->
 <!--[if lt IE 10]><!-->
 <!--<script src="js/vendor/bootstrap.min.js"></script>-->

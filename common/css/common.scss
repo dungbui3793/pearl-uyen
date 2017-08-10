@@ -65,17 +65,13 @@
  }
 .copyright{
     height: 50px;
-    background-color: black;
-    position: relative;
-    p{
-        position: absolute;
-        color: white;
-        text-align: center;
-        top: 50%;
-        transform: translate(50%,-50%);
-        right: 50%;
-    }
-
+    // TODO If want to center a text, use line-height = height. Only use for one line text
+    line-height: 50px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    // TODO DO NOT USE COLOR AS WHITE/BLACK...
+    //color: white;
 }
 
 .topbtn {
