@@ -20,8 +20,7 @@
     .container__facility{
         img{
             max-width: 100%;
-            padding-bottom: 85px;
-
+            padding-bottom: 40px;
         }
         .facility-txt{
             line-height: initial;
@@ -38,13 +37,17 @@
     color: #666666;
 }
 
-
 .facility-main-3{
     height: 50%;
 }
 
-.hr-line{
-    color: #00a849;
+.wow-border-bottom{
+    border-bottom: 1px solid #cccccc;
+
+}
+
+.wow-padding-top{
+    padding-top: 40px;
 }
 
 body{
