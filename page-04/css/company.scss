@@ -125,11 +125,23 @@ h2 {
     }
 }
 
-.txt-color {
-    color: #666666;
-    padding-left: 30px;
-    padding-bottom: 10px;
+.company-bottom{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: #cccccc solid 1px;
+    border-bottom: #cccccc solid 1px;
+
+    .txt-color {
+        color: #666666;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    .dot-li{
+        padding-bottom: 20px;
+    }
 }
+
+
 
 
 
