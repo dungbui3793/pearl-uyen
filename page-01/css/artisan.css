@@ -34,11 +34,16 @@
 .artisan-content-img {
   position: absolute;
   z-index: 1;
-  right: 200px;
-  top: 87%; }
+  top: 0;
+  right: 0; }
 
-.container-artisan-content .artisan-title-img {
-  margin-bottom: 60px;
-  display: flex; }
+.artisan-content-parent {
+  position: relative; }
+  .artisan-content-parent .container-artisan-content .artisan-title-img {
+    margin-bottom: 60px;
+    display: flex; }
+
+.artisan-title-img {
+  margin-bottom: 50px; }
 
 /*# sourceMappingURL=artisan.css.map */
