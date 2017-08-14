@@ -7,7 +7,6 @@ $(function () {
     $(".simply-scroll").hover(function () {
         $(".simply-scroll-btn-pause").click();
     })
-
 });
 
 
