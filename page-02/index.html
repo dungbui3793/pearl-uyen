@@ -47,36 +47,53 @@
             <li><a class="active" href="../page-02/index.html">実績紹介</a></li>
             <li><a href="../page-03/index.html">設備紹介</a></li>
             <li><a href="../page-04/index.html">職人メッセージ</a></li>
-            <li><a href="../page-05/index.html"  class="nav-top__li">お問い合わせ</a></li>
+            <li><a href="../page-05/index.html" class="nav-top__li">お問い合わせ</a></li>
         </ul>
     </div>
     <div class="facility-banner ">
+        <!--<img class="banner-img" src="../common/img/facility-banner.jpg"/>-->
         <img class="sub-banner" src="../common/img/sub-banner.png"/>
+
     </div>
 </section>
 
 <section class="facility-main">
     <div class="container container__facility">
-
         <!-- TODO Xem lai to chuc div, style thieu border -->
         <!-- TODO luon dung row/clearfix doi voi cac style column cua bootstrap, va luon luon dung clearfix doi voi cac div parent co div child float left/right-->
-        <div class="clearfix">
-            <div class="col-xs-6 wow bounceInLeft">
+        <div class="clearfix wow-border-bottom">
+            <div class="col-sm-6 wow bounceInLeft facility-txt">
                 <b>自動走行式遠赤外線乾燥機</b><br>
-                プリント幅112cm乾燥機に対応。
+                <span class="txt-color">
+                    プリント幅112cm乾燥機に対応。
+                </span>
             </div>
-            <div class="col-xs-6 wow bounceInRight">
-                <img src="img/facility-main-1.png"/>
+            <div class="wow bounceInRight">
+                <img class="col-sm-6" src="img/facility-main-1.png"/>
             </div>
         </div>
-        <div class="clearfix">
-            <div class="col-xs-6 wow bounceInLeft">
-                <b>自動走行式遠赤外線乾燥機</b><br>
-                プリント幅112cm乾燥機に対応。
+        <div class="clearfix wow-border-bottom facility-padding-top">
+            <div class="col-sm-6 wow bounceInLeft facility-txt " data-wow-duration="1s" data-wow-delay="1s">
+                <b>プレス機　50cm x 110cm</b><br>
+                <span class="txt-color">
+                    発泡、箔加工などのサンプル作成用として使用
+                </span>
             </div>
-            <div class="col-xs-6 wow bounceInRight">
-                <!-- TODO ko dung class set width bootstrap cho img -->
-                <img src="img/facility-main-2.png"/>
+            <div class="wow bounceInRight" data-wow-duration="1s" data-wow-delay="1s">
+                <img class="col-sm-6 facility-main-3" src="img/facility-main-2.png"/>
+            </div>
+        </div>
+
+        <div class="clearfix facility-padding-top" >
+            <div class="col-sm-6 wow bounceInLeft facility-txt " data-wow-duration="0.5s" data-wow-delay="1s">
+                <b>捺染台　50cm x 10台</b><br>
+                <span class="txt-color">
+                    プリント可能幅　112cm x 50cm x 8台<br>
+                    プリント可能幅　100cm x 50cm x 2台
+                </span>
+            </div>
+            <div class="wow bounceInRight" data-wow-duration="0.5s" data-wow-delay="1s">
+                <img class="col-sm-6 facility-main-3" src="img/facility-main-3.png"/>
             </div>
         </div>
     </div>
@@ -87,7 +104,7 @@
 </div>
 
 <section class="copyright">
-        Copyright &copy 2016 Pearl senshoku. All Rights Reserved.
+    Copyright &copy 2016 Pearl senshoku. All Rights Reserved.
 </section>
 <!--[if lt IE 10]><!-->
 <script type="text/javascript" src="../common/js/jquery-1.9.1.min.js"></script>

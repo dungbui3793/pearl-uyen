@@ -1,18 +1,15 @@
-.company-main{
+.company-main {
     padding-top: 80px;
     padding-bottom: 165px;
-.company-content{
+    .company-content {
 
-    margin-left: 0px;
-    padding-left: 200px;
-    padding-right: 0;
-
-
+        margin-left: 0;
+        padding-left: 200px;
+        padding-right: 0;
+    }
 }
 
-}
-
-case-main.container-main{
+case-main.container-main {
 
     margin-left: 0;
     padding-left: 200px;
@@ -36,22 +33,22 @@ case-main.container-main{
     }
 }
 
-h2{
-        font-weight: bold;
-        color: #717d4b;
-        text-align: center;
-        padding-bottom: 40px;
+h2 {
+    font-weight: bold;
+    color: #717d4b;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 .table-top {
     margin-bottom: 80px;
-    table, tr,td{
+    table, tr, td {
         border: 1px solid #666666;
     }
-    .txt-midle{
+    .txt-midle {
         vertical-align: middle;
     }
-    .color-td-2-padding{
+    .color-td-2-padding {
         padding-left: 30px;
     }
     td {
@@ -78,23 +75,22 @@ h2{
     }
 }
 
-
-
-.table-bottom{
+.table-bottom {
     background-color: #f7f6f2;
     line-height: initial;
-    table, tr,td {
+
+    table, tr, td {
         border: none;
         color: #666666;
     }
-    .color-td-1-border{
+    .color-td-1-border {
         border-right: 1px solid #717d4b;
         padding-left: 30px;
         padding-right: 30px;
         text-align: center;
         position: relative;
     }
-    td.color-td-1-border:after{
+    td.color-td-1-border:after {
         content: "";
         width: 5px;
         height: 5px;
@@ -106,12 +102,13 @@ h2{
         transform: translateY(-50%);
         top: 50%;
     }
-    .td-2-padding{
+    .td-2-padding {
         padding-left: 30px;
     }
-    tr,td{
+    tr, td {
         padding: 15px 0;
     }
+
 }
 
 .dot-li {
@@ -119,20 +116,32 @@ h2{
     margin-right: 0;
     justify-content: center;
     color: #666666;
-    li{
+    li {
         margin-right: 60px;
     }
-    li::before{
+    li::before {
         content: "•";
         color: #717d4b;
     }
 }
 
-.txt-color{
-    color: #666666;
-    padding-left: 30px;
-    padding-bottom: 10px;
+.company-bottom{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: #cccccc solid 1px;
+    border-bottom: #cccccc solid 1px;
+
+    .txt-color {
+        color: #666666;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    .dot-li{
+        padding-bottom: 20px;
+    }
 }
+
+
 
 
 
