@@ -2,21 +2,17 @@
 
 .container__header{
     padding: 0;
-    margin: 0 80px;
     height: 130px;
-    position: relative;
+    width: auto;
+    margin-left: 60px;
+    margin-right: 60px;
     .logo-img{
         width: 18% ;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+        padding-top: 40px;
     }
     .nav-top{
-        padding-top: 0;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: 0;
+        float: right;
+        padding-top: 50px;
         li{
             float: left;
             padding-right: 50px;
@@ -40,8 +36,6 @@
         }
     }
 }
-
-
 
 .top-banner{
     background-image: url(../img/top-banner.jpg) ;
