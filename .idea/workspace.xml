@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4351f722-202c-4f70-8ce6-51b5300483f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/css/common.css.map" afterPath="$PROJECT_DIR$/common/css/common.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/top.css.map" afterPath="$PROJECT_DIR$/css/top.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-01/css/artisan.css.map" afterPath="$PROJECT_DIR$/page-01/css/artisan.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-01/index.html" afterPath="$PROJECT_DIR$/page-01/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-02/css/facility.css.map" afterPath="$PROJECT_DIR$/page-02/css/facility.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-03/index.html" afterPath="$PROJECT_DIR$/page-03/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-04/css/company.css" afterPath="$PROJECT_DIR$/page-04/css/company.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-04/css/company.css.map" afterPath="$PROJECT_DIR$/page-04/css/company.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-04/index.html" afterPath="$PROJECT_DIR$/page-04/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-05/css/case.css.map" afterPath="$PROJECT_DIR$/page-05/css/case.css.map" />
-    </list>
+    <list default="true" id="4351f722-202c-4f70-8ce6-51b5300483f6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -31,50 +20,7 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="4E5579" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-01/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="91" column="23" lean-forward="true" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-04/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="180" column="0" lean-forward="true" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-              <folding>
-                <marker date="1502701631754" expanded="true" signature="6378:6388" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page-02/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="54" column="68" lean-forward="true" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-03/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="72" column="107" lean-forward="false" selection-start-line="72" selection-start-column="107" selection-end-line="72" selection-end-column="107" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -368,12 +314,12 @@
       <updated>1502422262255</updated>
       <workItem from="1502422264075" duration="16144000" />
       <workItem from="1502676754223" duration="2429000" />
-      <workItem from="1502692489501" duration="9079000" />
+      <workItem from="1502692489501" duration="9129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27652000" />
+    <option name="totallyTimeSpent" value="27702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -662,14 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-03/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="72" column="107" lean-forward="false" selection-start-line="72" selection-start-column="107" selection-end-line="72" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-01/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
@@ -692,6 +630,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="54" column="68" lean-forward="true" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-03/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="72" column="107" lean-forward="false" selection-start-line="72" selection-start-column="107" selection-end-line="72" selection-end-column="107" />
           <folding />
         </state>
       </provider>
