@@ -37,6 +37,7 @@
     }
 }
 
+
 .top-banner{
     background-image: url(../img/top-banner.jpg) ;
     width: 100%;
@@ -65,7 +66,6 @@
     background-color: #000;
     color: #fff;
     // TODO DO NOT USE COLOR AS WHITE/BLACK...
-    //color: white;
 }
 
 .topbtn {
@@ -76,9 +76,7 @@
     z-index: 99;
     border: none;
     outline: none;
-    //background-color: red;
     background-color: transparent;
-    //color: white;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
