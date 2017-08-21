@@ -18,36 +18,36 @@ $(document).ready(function(){
 
 function changeImage11(){
     document.getElementById('toChange1').src=
-        "../img/works-img-3.png";
+        "img/works-img-1.png";
 }
 function changeImage12(){
     document.getElementById('toChange1').src=
-        "../img/works-img-4.png";
+        "img/case-img-replace-1-1.png";
 }
 
 function changeImage21(){
     document.getElementById('toChange2').src=
-        "../img/works-img-3.png";
+        "img/case-img-replace-2-1.png";
 }
 function changeImage22(){
     document.getElementById('toChange2').src=
-        "../img/works-img-4.png";
+        "../img/works-img-6.png";
 }
 
 function changeImage31(){
     document.getElementById('toChange3').src=
-        "../img/works-img-3.png";
+        "img/case-img-replace-3-1.png";
 }
 function changeImage32(){
     document.getElementById('toChange3').src=
-        "../img/works-img-4.png";
+        "../img/works-img-10.png";
 }
 
 function changeImage41(){
     document.getElementById('toChange4').src=
-        "../img/works-img-3.png";
+        "img/works-img-11.png";
 }
 function changeImage42(){
     document.getElementById('toChange4').src=
-        "../img/works-img-4.png";
+        "img/case-img-replace-4-2.png";
 }

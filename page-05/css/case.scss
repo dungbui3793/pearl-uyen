@@ -1,17 +1,26 @@
 @import "../../scss/mixin";
-
-.case-main{
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 0;
+    padding-top: 80px;
+    padding-right: 0;
+.case-main {
     padding: 10px 0 0 0;
     margin-left: 135px;
-    .row{
+    .row {
         padding-left: 0;
         padding-right: 0;
         padding-top: 60px;
-        .col-sm-6{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 80px;
+        .col-sm-6 {
             width: initial;
+            padding-left: 0;
         }
     }
-
+}
 }
 
 .case-banner {
@@ -35,68 +44,70 @@
     background: url("../../img/works-img-1.png") no-repeat;
     background-size: cover;
     margin: 10px 10px;
-    height: 400px;
-    width: 365px;
+    height: 365px;
+    width: 400px;
     float: left;
 }
 
 .pentagon2 {
     background: url("../img/case-img-replace-2-1.png") no-repeat;
     background-size: cover;
-    margin: 10px 10px;
-    height: 400px;
-    width: 365px;
+    //margin: 10px 10px;
+    width: 400px;
+    height: 365px;
     float: left;
+    margin-left: 100px;
 }
 
 .pentagon3 {
     background: url("../../img/works-img-3.png") no-repeat;
     background-size: cover;
     margin: 10px 10px;
-    height: 400px;
-    width: 365px;;
+    width: 400px;
+    height: 365px;
     float: left;
 }
 
 .pentagon4 {
     background: url("../img/works-img-4.png") no-repeat;
     background-size: cover;
-    margin: 10px 10px;
-    height: 400px;
-    width: 365px;
+    //margin: 10px 10px;
+    width: 400px;
+    height: 365px;
     float: left;
+    margin-left: 100px;
 }
 
 .pentagon5 {
     background: url("../../img/works-img-12.png") no-repeat;
     background-size: cover;
     margin: 10px 10px;
-    height: 400px;
-    width: 365px;
+    width: 400px;
+    height: 365px;
     float: left;
 }
 .pentagon6 {
     background: url("../../img/works-img-12.png") no-repeat;
     background-size: cover;
     margin: 10px 10px;
-    height: 400px;
-    width: 365px;;
-    float: left;
+    width: 400px;
+    height: 365px;
 }
 .pentagon6 {
     background: url("../img/works-img-main-6.png") no-repeat;
     background-size: cover;
-    margin: 10px 10px;
-    height: 400px;
-    width: 365px;
+    //margin: 10px 10px;
+    width: 400px;
+    height: 365px;
     float: left;
+    margin-left: 100px;
 }
 .pentagon7 {
     background: url("../../img/works-img-4.png") no-repeat;
     background-size: cover;
     margin: 10px 10px;
-    height: 400px;
-    width: 365px;;
+    width: 400px;
+    height: 365px;
     float: left;
 }
 
@@ -108,19 +119,15 @@
 .case-bottom{
     position: relative;
     padding-bottom: 250px;
-    padding-top: 250px;
-
-
+    padding-top: 160px;
     .aboutUs-img{
         position: absolute;
         top: 30%;
         right: 8%;
         width: 13%;
     }
-
     .txt-bottom{
         text-align: center;
-        padding-top: 120px;
     }
 }
 
@@ -130,26 +137,22 @@
 
 .case-img{
     position: relative;
-    .case-sub-img-1{
-        position: absolute;
-        top: 91%;
-        right: 6%;
-    }
-    .case-sub-img-2{
-        position: absolute;
-        top: 91%;
-        right: 74%;
-    }
     .case-sub-img-3{
         position: absolute;
         top: 91%;
-        right: 6%;
+    }
+    .case-sub-img-left{
+        right: 28%;
+    }
+    .case-sub-img-right{
+        right: 13%;
     }
 }
 
 .case-txt-1{
     padding-top: 65px;
-    padding-left: 100px;
+    padding-right: 0;
+    padding-left: 0;
     .case-txt-top{
         line-height: 3.2;
     }
@@ -176,3 +179,9 @@
     max-width: 100%;
 }
 
+.case-txt-left{
+    padding-left: 15px;
+}
+.case-txt-right{
+    margin-left: -60px;
+}
